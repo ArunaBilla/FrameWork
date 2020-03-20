@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57697" started-at="2020-02-18T06:35:37Z" finished-at="2020-02-18T06:36:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57697" started-at="2020-02-18T06:35:37Z" finished-at="2020-02-18T06:36:35Z">
+      <class name="com.frameworks.pageobjectmodel.FbPOM">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.frameworks.pageobjectmodel.FbPOM@5f341870]" name="openBrowser" is-config="true" duration-ms="12398" started-at="2020-02-18T12:05:25Z" finished-at="2020-02-18T12:05:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="reportInit()[pri:0, instance:com.frameworks.pageobjectmodel.FbPOM@5f341870]" name="reportInit" is-config="true" duration-ms="156" started-at="2020-02-18T12:05:37Z" finished-at="2020-02-18T12:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInit -->
+        <test-method status="PASS" signature="beforeTcExecution(java.lang.reflect.Method)[pri:0, instance:com.frameworks.pageobjectmodel.FbPOM@5f341870]" name="beforeTcExecution" is-config="true" duration-ms="10" started-at="2020-02-18T12:05:37Z" finished-at="2020-02-18T12:05:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void com.frameworks.pageobjectmodel.FbPOM.fb() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTcExecution -->
+        <test-method status="PASS" signature="fb()[pri:0, instance:com.frameworks.pageobjectmodel.FbPOM@5f341870]" name="fb" duration-ms="57028" started-at="2020-02-18T12:05:37Z" finished-at="2020-02-18T12:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fb -->
+        <test-method status="PASS" signature="afterTcExection(org.testng.ITestResult)[pri:0, instance:com.frameworks.pageobjectmodel.FbPOM@5f341870]" name="afterTcExection" is-config="true" duration-ms="401" started-at="2020-02-18T12:06:34Z" finished-at="2020-02-18T12:06:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fb status=SUCCESS method=FbPOM.fb()[pri:0, instance:com.frameworks.pageobjectmodel.FbPOM@5f341870] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTcExection -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.frameworks.pageobjectmodel.FbPOM@5f341870]" name="endReport" is-config="true" duration-ms="78" started-at="2020-02-18T12:06:35Z" finished-at="2020-02-18T12:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.frameworks.pageobjectmodel.FbPOM@5f341870]" name="closeBrowser" is-config="true" duration-ms="4195" started-at="2020-02-18T12:06:35Z" finished-at="2020-02-18T12:06:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.frameworks.pageobjectmodel.FbPOM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
